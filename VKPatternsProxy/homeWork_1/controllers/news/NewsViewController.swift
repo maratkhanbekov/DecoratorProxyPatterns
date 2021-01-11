@@ -17,7 +17,7 @@ class NewsViewController: UIViewController {
     private var imageHeight: CGFloat = 0
     
     
-    private var feedService = NewsAdapter()
+    private var feedService = NewsServiceProxy(newsService: NewsAdapter())
     
     
     private var feeds = [VkFeed]()

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5DC3809695F037A6B111CF13 /* Pods_homeWork_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB03EE607AE3B19FD932EA7A /* Pods_homeWork_1.framework */; };
+		5E7415BA25AC2B0100D9949A /* NewsServiceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7415B925AC2B0100D9949A /* NewsServiceInterface.swift */; };
 		5EBC10E625972E6F00629317 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC10E525972E6F00629317 /* UIColor+Extension.swift */; };
 		5EBC10E92597304300629317 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC10E82597304300629317 /* UIFont+Extension.swift */; };
 		5EBC10EC2597327E00629317 /* NewsAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC10EB2597327E00629317 /* NewsAdapter.swift */; };
@@ -67,6 +68,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E7415B925AC2B0100D9949A /* NewsServiceInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsServiceInterface.swift; sourceTree = "<group>"; };
 		5EBC10E525972E6F00629317 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		5EBC10E82597304300629317 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		5EBC10EB2597327E00629317 /* NewsAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAdapter.swift; sourceTree = "<group>"; };
@@ -412,6 +414,7 @@
 				84D1DEBB21AE624A006FC20E /* NewsInfoViewController.swift */,
 				5EBC10EB2597327E00629317 /* NewsAdapter.swift */,
 				5EBC10EE259747D600629317 /* NewsViewModelFactory.swift */,
+				5E7415B925AC2B0100D9949A /* NewsServiceInterface.swift */,
 			);
 			path = news;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				84105FB3217F173D00EEF673 /* VKApiViewController.swift in Sources */,
 				844ACE372186D98900565895 /* VkGroup.swift in Sources */,
 				5EBC10EC2597327E00629317 /* NewsAdapter.swift in Sources */,
+				5E7415BA25AC2B0100D9949A /* NewsServiceInterface.swift in Sources */,
 				5EBC10E625972E6F00629317 /* UIColor+Extension.swift in Sources */,
 				AA5766F72160E9080029F786 /* CustomLike.swift in Sources */,
 				5EBC10EF259747D600629317 /* NewsViewModelFactory.swift in Sources */,
