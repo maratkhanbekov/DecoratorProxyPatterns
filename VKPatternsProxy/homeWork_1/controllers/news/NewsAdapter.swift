@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-final class NewsAdapter {
+final class NewsAdapter: NewsServiceInterface {
     func getFeed(startFrom: String, then completion: @escaping ([VkFeed]) -> Void) {
         let method = "newsfeed.get"
         let fullRow = "\(GlobalConstants.vkApi)\(method)"
